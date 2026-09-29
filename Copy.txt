@@ -1,0 +1,128 @@
+COPY DA LANDING PAGE - BOTELHO & NEVES ADVOGADOS ASSOCIADOS (Varginha-MG)
+
+Tom: sério e acolhedor. Linguagem simples, sem juridiquês e sem promessa de resultado (publicidade da advocacia tem regras da OAB).
+Objetivo único: levar o visitante para a conversa no WhatsApp.
+Dados reais usados: Google Maps (nota 5,0, 241 avaliações, endereço, telefone, menções, avaliações), bio do Instagram (+ 10 anos de experiência, Direito Trabalhista e Previdenciário, Varginha, Boa Esperança e Coqueiral), link de WhatsApp do Instagram, foto da premiação.
+Onde o dado não está confirmado, aparece entre colchetes.
+
+======================================================
+0. TOPO DO SITE (header)
+======================================================
+Nome ao lado do logo: Botelho & Neves | Advogados Associados
+Menu: Sobre | Áreas de atuação | Avaliações | Escritório
+Botão do topo: Falar no WhatsApp
+
+======================================================
+1. HERO
+======================================================
+Etiqueta acima do título: Advocacia em Varginha
+Título: Trabalhista e Previdenciário, com atenção do começo ao fim
+Subtítulo: Mais de 10 anos de experiência em Direito Trabalhista e Previdenciário, atendendo em Varginha, Boa Esperança e Coqueiral. Explicamos cada passo com clareza e cuidado.
+Botão principal: Falar com um advogado no WhatsApp
+Botão secundário: Ver áreas de atuação
+Frase de apoio abaixo do botão: Resposta em horário comercial. [HORÁRIO A CONFIRMAR]
+
+Faixa de provas logo abaixo do hero:
+- 5,0 | nota no Google
+- 241 | avaliações de clientes
+- + 10 anos | de experiência
+- 3 cidades | Varginha, Boa Esperança e Coqueiral
+
+======================================================
+2. SOBRE
+======================================================
+Etiqueta: O escritório
+Título: Um escritório que explica, acompanha e responde
+Texto: A Botelho & Neves Advogados Associados atua com foco em Direito Trabalhista e Previdenciário há mais de 10 anos. Nas avaliações do Google, quem foi atendido destaca o escritório, a equipe e a atenção recebida. [NOMES DOS SÓCIOS, OAB E ANO DE FUNDAÇÃO A CONFIRMAR]
+Botão: Conversar com o escritório
+
+======================================================
+3. ÁREAS DE ATUAÇÃO
+======================================================
+Título da seção: Áreas de atuação
+Subtítulo: Duas áreas onde o escritório concentra o trabalho.
+Cards:
+- Direito Trabalhista | Orientação e acompanhamento em questões da relação de trabalho. [DETALHES DA ÁREA A CONFIRMAR] | Conversar sobre essa área
+- Direito Previdenciário | Orientação sobre direitos e benefícios junto ao INSS. [DETALHES DA ÁREA A CONFIRMAR] | Conversar sobre essa área
+Frase abaixo: Cada caso é único. A conversa inicial serve para entender a sua situação, sem promessa de resultado.
+
+Onde atendemos: Varginha/MG | Boa Esperança/MG | Coqueiral/MG
+
+======================================================
+4. RECONHECIMENTO
+======================================================
+Título da seção: Reconhecimento
+Subtítulo: Momento de premiação do escritório. [PREMIAÇÃO, CATEGORIA, ANO E NOMES DOS PREMIADOS A CONFIRMAR]
+Legenda da foto: Premiação Sales Pesquisa. [CONFIRMAR]
+
+======================================================
+5. AVALIAÇÕES
+======================================================
+Título da seção: Quem foi atendido, avalia
+Subtítulo: 5,0 no Google, com 241 avaliações.
+O que mais aparece nas avaliações (contagem real do Google Maps):
+- escritório: 27 menções
+- equipe: 23 menções
+- atenção: 14 menções
+- nota: 12 menções
+
+Depoimentos (avaliações reais do Google Maps, copiadas sem alteração):
+1. "Ótimo profissional, indico muito! Super atencioso, transparente, responsável e comprometido. Me senti seguro durante todo o processo e fui bem atendido. Obrigado pelo ótimo trabalho e pelo resultado obtido." Luiz Otávio, avaliação no Google
+2. "Satisfação e comprometimento é o que define esses profissionais, dedicação e tratamento humanizado e respeito com seus clientes. Só tenho o que agradecer sempre." Andrea Silva, avaliação no Google
+3. "Ótimos profissionais, esclareceram bem todas as minhas dúvidas." Avaliação no Google
+Link abaixo: Ver todas as avaliações no Google
+Botão: Quero ser atendido assim, falar no WhatsApp
+
+======================================================
+6. ESCRITÓRIO
+======================================================
+Título da seção: Venha nos conhecer
+Subtítulo: No Centro de Varginha.
+Endereço: R. Santa Cruz, 789 - 101 - Centro, Varginha - MG, 37002-089
+Horário: [HORÁRIO COMPLETO A CONFIRMAR]
+Telefone e WhatsApp: (35) 3015-8433
+Instagram: @botelhoenevesadvogados
+Botão: Como chegar (abre o Google Maps)
+Botão: Falar no WhatsApp
+
+======================================================
+7. CTA FINAL COM FORMULÁRIO
+======================================================
+Título: Precisa conversar com um advogado?
+Subtítulo: Conte, em poucas palavras, o que aconteceu. O escritório responde pelo WhatsApp.
+Campos: Seu nome | Assunto (Trabalhista, Previdenciário, Não sei) | Cidade (opcional)
+Botão: Enviar pelo WhatsApp
+Mensagem de erro do nome: Digite seu nome para o escritório saber com quem está falando.
+Mensagem de erro do assunto: Escolha um assunto para a conversa começar do lado certo.
+Frase de apoio: Sem compromisso. Não envie documentos nem dados sensíveis por aqui.
+Mensagem pré-preenchida no WhatsApp: Olá! Vim pelo site e gostaria de conversar com um advogado.
+
+======================================================
+8. RODAPÉ
+======================================================
+Botelho & Neves Advogados Associados
+R. Santa Cruz, 789 - 101 - Centro, Varginha - MG
+Telefone e WhatsApp (35) 3015-8433
+Instagram: @botelhoenevesadvogados
+OAB: [NÚMEROS DA OAB A CONFIRMAR]
+Aviso: Este site tem caráter informativo e não promete resultado. Cada caso é analisado individualmente.
+Direitos: Botelho & Neves Advogados Associados. Todos os direitos reservados.
+
+Botão flutuante (rótulo para leitor de tela): Falar com o escritório no WhatsApp
+
+======================================================
+BOTÕES DE WHATSAPP: LINK
+======================================================
+Todos apontam para https://wa.me/553530158433 (número do link do WhatsApp no Instagram).
+
+======================================================
+PENDÊNCIAS: CONFIRMAR COM O ESCRITÓRIO
+======================================================
+1. Nomes dos sócios, números da OAB e ano de fundação.
+2. Horário completo (o Google mostra só "Fecha 18:00").
+3. Detalhes de cada área de atuação e o que o escritório aceita ou não atender.
+4. Premiação da foto: qual, categoria, ano e quem aparece. Se pode ser divulgada.
+5. Autorização para citar nome e avaliações do Google.
+6. Revisão do texto pelas regras de publicidade da OAB (avaliações de clientes, menção a prêmio) antes de publicar.
+7. Logo: o arquivo veio de um gerador de imagem; confirmar se é o oficial. O escritório já tem site (botelhoenevesadvogados.com.br): combinar se esta página o substitui ou complementa.
+8. Se o (35) 3015-8433 é mesmo o WhatsApp de atendimento.

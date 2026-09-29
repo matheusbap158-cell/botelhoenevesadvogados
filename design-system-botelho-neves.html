@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design System | Botelho &amp; Neves</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --wine-700:#5C1A2A; --wine-600:#7A2438; --wine-300:#E8A9B6;
+  --brass-500:#B8935A; --brass-300:#DEC79B;
+  --graphite-950:#101216; --graphite-900:#16181D; --graphite-700:#252932;
+  --ink-800:#22252B; --ink-600:#5A5E68;
+  --paper-50:#F7F4EF; --paper-100:#EEE9E1; --paper-200:#DDD6CB;
+  --wa-500:#25D366;
+  --font-display:'Playfair Display',Georgia,serif;
+  --font-body:'Source Sans 3',-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper-50);color:var(--ink-800);font-family:var(--font-body);line-height:1.6;font-size:18px}
+h1,h2,h3{font-family:var(--font-display);margin:0;color:var(--graphite-900)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+header{background:var(--graphite-950);color:#fff;padding:52px 0}
+header img{height:70px;width:auto;margin-bottom:20px}
+header h1{color:#fff;font-size:clamp(34px,5vw,54px)}
+header p{color:#CFCAC0;max-width:40rem;margin:12px 0 0}
+section{padding:44px 0;border-bottom:1px solid var(--paper-200)}
+h2{font-size:32px;margin-bottom:6px}
+.lead{color:var(--ink-600);margin:0 0 22px}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+.sw{border:1px solid var(--paper-200);border-radius:6px;overflow:hidden;background:#fff;cursor:pointer;text-align:left;font:inherit;padding:0;color:inherit}
+.sw:focus-visible,.btn:focus-visible{outline:3px solid var(--wine-600);outline-offset:2px}
+.sw .c{height:70px}
+.sw .t{padding:10px 12px;font-size:14.5px}
+.sw b{display:block}
+.row{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-flex;align-items:center;min-height:56px;padding:12px 26px;border-radius:4px;font:600 17px var(--font-body);border:1px solid transparent;cursor:pointer;text-decoration:none}
+.btn-wine{background:var(--wine-600);color:#fff}.btn-wine:hover{background:var(--wine-700)}
+.btn-wa{background:var(--wa-500);color:#052E16}
+.btn-line{background:transparent;color:var(--graphite-900);border-color:var(--graphite-900)}
+.card{background:#fff;border:1px solid var(--paper-200);border-radius:6px;padding:26px;position:relative;max-width:440px}
+.card::before{content:"";position:absolute;left:26px;top:-1px;width:60px;height:3px;background:var(--brass-500)}
+.type-row{display:flex;gap:18px;align-items:baseline;border-bottom:1px solid var(--paper-200);padding:14px 0;flex-wrap:wrap}
+.type-row small{width:110px;color:var(--ink-600);flex:none}
+pre{background:var(--graphite-950);color:var(--brass-300);padding:18px;border-radius:6px;overflow:auto;font-size:13px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--graphite-950);color:#fff;padding:10px 18px;border-radius:99px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.show{opacity:1}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <img src="assets/logo-branco.png" alt="Botelho e Neves Advogados Associados" width="900" height="401">
+  <h1>Design System</h1>
+  <p>Advocacia clássica e sóbria: grafite, bordô como cor de ação, latão só em filetes. Clique numa cor para copiar o código.</p>
+</div></header>
+<main>
+<section><div class="wrap"><h2>Cores</h2><p class="lead">O verde do WhatsApp é exclusivo do botão de conversa.</p><div class="swatches" id="sw"></div></div></section>
+<section><div class="wrap"><h2>Tipografia</h2><p class="lead">Playfair Display nos títulos, Source Sans 3 no texto.</p>
+  <div class="type-row"><small>H1 · 62 / 38</small><span style="font-family:var(--font-display);font-weight:700;font-size:clamp(34px,6vw,62px);line-height:1.06">Com <em style="color:var(--wine-600)">atenção</em></span></div>
+  <div class="type-row"><small>H2 · 42 / 31</small><h2 style="font-size:clamp(30px,4.4vw,42px);margin:0">Áreas de atuação</h2></div>
+  <div class="type-row"><small>H3 · 24 / 22</small><h3 style="font-size:24px">Direito Trabalhista</h3></div>
+  <div class="type-row"><small>Etiqueta · 12,5</small><span style="font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--wine-600);font-weight:600">Advocacia em Varginha</span></div>
+  <div class="type-row"><small>Corpo · 18 / 17</small><p style="margin:0;max-width:36rem">Explicamos cada passo com clareza e cuidado.</p></div>
+</div></section>
+<section><div class="wrap"><h2>Botões</h2><div class="row" style="margin-top:14px"><a class="btn btn-wine" href="#">Conversar com o escritório</a><a class="btn btn-wa" href="#">Falar no WhatsApp</a><a class="btn btn-line" href="#">Ver áreas de atuação</a></div></div></section>
+<section><div class="wrap"><h2>Card de avaliação</h2><div class="card" style="margin-top:14px"><div style="color:var(--brass-500);letter-spacing:3px">★★★★★</div><p style="font-family:var(--font-display);font-size:20px;margin:10px 0">"Ótimos profissionais, esclareceram bem todas as minhas dúvidas."</p><small style="color:var(--ink-600)">Avaliação no Google</small></div></div></section>
+<section><div class="wrap"><h2>Tokens prontos (CSS)</h2>
+<pre>:root{
+  --wine-700:#5C1A2A; --wine-600:#7A2438; --wine-300:#E8A9B6;
+  --brass-500:#B8935A; --brass-300:#DEC79B;
+  --graphite-950:#101216; --graphite-900:#16181D; --graphite-700:#252932;
+  --ink-800:#22252B; --ink-600:#5A5E68;
+  --paper-50:#F7F4EF; --paper-100:#EEE9E1; --paper-200:#DDD6CB;
+  --wa-500:#25D366;
+  --font-display:'Playfair Display',Georgia,serif;
+  --font-body:'Source Sans 3',-apple-system,'Segoe UI',sans-serif;
+}</pre></div></section>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script>
+var cores=[['wine-600','#7A2438','Ação'],['wine-700','#5C1A2A','Hover'],['wine-300','#E8A9B6','Destaque sobre escuro'],['brass-500','#B8935A','Filetes e estrelas'],['brass-300','#DEC79B','Rótulos sobre escuro'],['graphite-950','#101216','Hero e rodapé'],['graphite-900','#16181D','Blocos escuros'],['graphite-700','#252932','Cards escuros'],['ink-800','#22252B','Corpo'],['ink-600','#5A5E68','Texto secundário'],['paper-50','#F7F4EF','Fundo'],['paper-100','#EEE9E1','Seção alternada'],['paper-200','#DDD6CB','Bordas'],['wa-500','#25D366','Só WhatsApp']];
+var box=document.getElementById('sw'),toast=document.getElementById('toast');
+cores.forEach(function(c){var b=document.createElement('button');b.className='sw';b.type='button';b.innerHTML='<div class="c" style="background:'+c[1]+'"></div><div class="t"><b>--'+c[0]+'</b>'+c[1]+'<br>'+c[2]+'</div>';
+b.onclick=function(){(navigator.clipboard?navigator.clipboard.writeText(c[1]):Promise.reject()).catch(function(){}).then(function(){toast.textContent='Copiado '+c[1];toast.classList.add('show');setTimeout(function(){toast.classList.remove('show')},1400)})};box.appendChild(b)});
+</script>
+</body>
+</html>
